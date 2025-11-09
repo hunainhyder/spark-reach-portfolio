@@ -89,14 +89,18 @@ export default function Hero() {
           </p>
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center mb-16">
-            <button className="px-8 py-4 bg-gradient-to-r from-accent to-accent/80 text-accent-foreground font-semibold rounded-xl hover:shadow-2xl hover:shadow-accent/60 hover:scale-110 transition-all duration-300 flex items-center gap-2 group font-heading uppercase text-sm tracking-wide hover:-translate-y-1 active:translate-y-1 border border-accent/50">
-              Work With Us
-              <ArrowRight className="w-5 h-5 group-hover:translate-x-2 transition-transform" />
-            </button>
+            <a href="#contact">
+              <button className="px-8 py-4 bg-gradient-to-r from-accent to-accent/80 text-accent-foreground font-semibold rounded-xl hover:shadow-2xl hover:shadow-accent/60 hover:scale-110 transition-all duration-300 flex items-center gap-2 group font-heading uppercase text-sm tracking-wide hover:-translate-y-1 active:translate-y-1 border border-accent/50">
+                Work With Us
+                <ArrowRight className="w-5 h-5 group-hover:translate-x-2 transition-transform" />
+              </button>
+            </a>
 
-            <button className="px-8 py-4 border-2 border-accent text-accent font-semibold rounded-xl hover:bg-accent/15 hover:shadow-lg hover:shadow-accent/40 transition-all duration-300 font-heading uppercase text-sm tracking-wide hover:border-accent/100">
-              View Services
-            </button>
+            <a href="#services">
+              <button className="px-8 py-4 border-2 border-accent text-accent font-semibold rounded-xl hover:bg-accent/15 hover:shadow-lg hover:shadow-accent/40 transition-all duration-300 font-heading uppercase text-sm tracking-wide hover:border-accent/100">
+                View Services
+              </button>
+            </a>
           </div>
 
           {/* Scroll indicator */}

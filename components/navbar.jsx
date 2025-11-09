@@ -60,9 +60,11 @@ export default function Navbar({ isScrolled }) {
 
           {/* CTA Button and Mobile Menu Toggle */}
           <div className="flex items-center space-x-4">
-            <button className="hidden sm:block px-6 py-2 bg-gradient-to-r from-accent to-accent/80 text-accent-foreground font-medium rounded-lg hover:shadow-lg hover:shadow-accent/60 hover:scale-105 transition-all duration-300 font-heading text-sm">
-              Get a Quote
-            </button>
+            <a href="#contact">
+              <button className="hidden sm:block px-6 py-2 bg-gradient-to-r from-accent to-accent/80 text-accent-foreground font-medium rounded-lg hover:shadow-lg hover:shadow-accent/60 hover:scale-105 transition-all duration-300 font-heading text-sm">
+                Get a Quote
+              </button>
+            </a>
 
             {/* Mobile Menu Button */}
             <button

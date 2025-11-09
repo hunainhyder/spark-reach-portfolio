@@ -45,10 +45,12 @@ export default function CTA() {
               Let's partner together to transform your brand and achieve measurable business growth.
             </p>
 
-            <button className="px-10 py-4 bg-gradient-to-r from-accent to-accent/80 text-accent-foreground font-bold rounded-xl hover:shadow-2xl hover:shadow-accent/40 hover:scale-110 transition-all duration-300 inline-flex items-center gap-2 group font-heading uppercase text-sm tracking-wide">
-              Get Started Today
-              <ArrowRight className="w-5 h-5 group-hover:translate-x-2 transition-transform" />
-            </button>
+            <a href="#contact">
+              <button className="px-10 py-4 bg-gradient-to-r from-accent to-accent/80 text-accent-foreground font-bold rounded-xl hover:shadow-2xl hover:shadow-accent/40 hover:scale-110 transition-all duration-300 inline-flex items-center gap-2 group font-heading uppercase text-sm tracking-wide">
+                Get Started Today
+                <ArrowRight className="w-5 h-5 group-hover:translate-x-2 transition-transform" />
+              </button>
+            </a>
           </div>
         </div>
       </div>

@@ -46,17 +46,17 @@ export default function Contact() {
     {
       icon: Mail,
       title: "Email",
-      value: "hello@sparkreach.com",
+      value: "sparkreach0@gmail.com",
     },
     {
       icon: Phone,
       title: "WhatsApp",
-      value: "+1 (555) 123-4567",
+      value: "+92 330 4628501",
     },
     {
       icon: MapPin,
       title: "Location",
-      value: "San Francisco, CA",
+      value: "Lahore, PK",
     },
   ]
 
